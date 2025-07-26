@@ -210,10 +210,10 @@ p {
 
   .nav-btns {
     rotate: -90deg;
-    position: absolute;
-    bottom: 100px;
+    position: fixed;
+    bottom: 5rem;
     left: 50%;
-    gap: 0.5rem;
+    right: 50%;
   }
 
   .sidebar {
