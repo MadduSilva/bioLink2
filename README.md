@@ -12,13 +12,11 @@ Este projeto é uma **página pessoal estilo BioLink**, focada em oferecer uma e
 
 O **BioLink Responsivo** é voltado para **criadores de conteúdo, freelancers e profissionais autônomos** que desejam centralizar seus principais links e redes sociais em um único lugar.
 
-🧠 A personagem fictícia **Maddu Silva** representa uma profissional tech criativa e ativa nas redes, que utiliza a plataforma para divulgar seus principais canais.
-
 🧩 O destaque vai para a **sidebar interativa**:
 - No **desktop**, surge lateralmente com botões de abrir e fechar;
 - No **mobile**, ela se comporta como uma aba inferior deslizante, ativada pela rolagem da tela.
 
-> Este projeto é fictício e visa demonstrar minhas habilidades em desenvolvimento web responsivo com **HTML**, **CSS** e **JavaScript** puro.
+> Este projeto é fictício e visa demonstrar minhas habilidades em desenvolvimento web responsivo com **HTML**, **CSS** e **JavaScript**.
 
 ---
 
@@ -40,7 +38,7 @@ A inspiração para este layout veio da necessidade de entregar uma interface qu
 
 - **HTML5**  
 - **CSS3** *(com Media Queries)*  
-- **JavaScript Vanilla (puro)**  
+- **JavaScript Vanilla**  
 - **Bootstrap Icons** *(ícones sociais e setas)*  
 
 ---
