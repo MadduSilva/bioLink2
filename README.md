@@ -57,7 +57,7 @@ A inspiração para este layout veio da necessidade de entregar uma interface qu
 ## 📸 Prévia
 
 Você pode visualizar o projeto completo em:  
-👉 [Link para Visualização](https://bio-link2.vercel.app/) 
+👉 [BioLink](https://bio-link2.vercel.app/) 
 
 ---
 
