@@ -49,9 +49,12 @@ body {
 }
 
 @keyframes bounce {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateX(-5px);
     }
@@ -59,7 +62,7 @@ body {
 
 .wrapper {
     display: flex;
-    
+
     width: 100%;
     height: auto;
     gap: 1rem;
@@ -89,12 +92,14 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
 }
 
 .sidebar::-webkit-scrollbar {
-    display: none; 
+    display: none;
 }
 
 .sidebar.open {
@@ -121,18 +126,21 @@ body {
 .sidebar a {
     display: block;
     font-size: 1rem;
+    font-weight: 500;
 
     width: 100%;
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     background-color: white;
-    color: black;
+    color: #610000;
     text-align: center;
     transition: background 0.2s;
 }
 
 .sidebar a:hover {
-    background-color: #ddd;
+    background-color: #610000;
+    color: white;
+    border: 1px solid white;
 }
 
 .main-content {
@@ -208,46 +216,58 @@ p {
 
 @media screen and (max-width: 768px) {
 
-  .nav-btns {
-    rotate: -90deg;
-    position: fixed;
-    bottom: 5rem;
-    left: 50%;
-    right: 50%;
-  }
+    .nav-btns {
+        rotate: -90deg;
+        position: fixed;
+        bottom: 5rem;
+        left: 50%;
+        right: 50%;
 
-  .sidebar {
-    position: absolute;
-    bottom: -95%;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
-    border-radius: 1rem 1rem 0 0;
-    transition: bottom 0.4s ease;
-    z-index: 999;
+    }
 
-  }
+    .sidebar {
+        position: absolute;
+        bottom: -95%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 1rem 1rem 0 0;
+        transition: bottom 0.4s ease;
+        z-index: 999;
 
-  .sidebar.open {
-    bottom: 0;
-    width: 100%;
-    max-height: 90vh;
-    padding: 1rem;
-    overflow-y: auto;
-  }
+    }
 
-  .sidebar ul {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem;
-  }
+    .sidebar.open {
+        bottom: 0;
+        width: 100%;
+        max-height: 90vh;
+        padding: 1rem;
+        overflow-y: auto;
+    }
 
-  .sidebar ul li {
-    width: 100%;
-  }
+    .sidebar ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+    }
 
-  p {
-    width: 90%;
-  }
+    .sidebar ul li {
+        width: 100%;
+    }
+
+    .sidebar a {
+    font-size: 1.3rem;
+    padding: 1.3rem;
+}
+
+    p {
+        width: 90%;
+    }
+
+    .main-content {
+        position: fixed;
+        transition: transform 0.4s ease;
+        z-index: 1;
+    }
 }
