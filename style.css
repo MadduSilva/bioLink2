@@ -250,4 +250,8 @@ p {
   p {
     width: 90%;
   }
+
+    .main-content {
+        position: fixed;
+    }
 }
